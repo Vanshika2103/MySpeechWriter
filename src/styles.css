@@ -1,0 +1,64 @@
+:root {
+  --primary-color: rgba(0, 47, 79, 0.821);
+  --secondary-color: rgba(1, 73, 97, 0.903);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+
+.container {
+  padding: 5rem 8rem;
+  /* box-shadow: 4px 5px 3px 2px rgb(199, 198, 198); */
+  text-align: center;
+  /* box-shadow: 0 5px 5px 3px rgb(227, 225, 225); */
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/16/244/1010/leaves-background-tree-green-leaves-wallpaper-preview.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.container h1 {
+  color: rgb(39, 38, 38);
+  margin: 2rem;
+}
+
+.main-content {
+  padding: 5rem 5rem;
+  /* min-width: 55rem; */
+  max-width: 55rem;
+  background: #fff;
+  text-transform: capitalize;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.btn-style {
+  margin-top: 20px;
+}
+
+.btn-style button:hover {
+  cursor: pointer;
+  background-color: #f5f1f18a;
+  color: var(--primary-color);
+  transition: color 0.2s;
+}
+
+.primary-btn {
+  border-radius: 5px;
+  padding: 4px 10px;
+  color: #fff;
+  border: none;
+  background-color: var(--primary-color);
+  font-size: 1.5rem;
+  margin: 0 10px;
+}
